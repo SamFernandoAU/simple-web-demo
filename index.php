@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  */
 include "app/config.php";
 include "app/detect.php";
-
+echo $browser_t;
 if ($page_name=='') {
 	include $browser_t.'/index.html';
 	}
